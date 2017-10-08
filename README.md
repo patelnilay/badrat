@@ -28,8 +28,8 @@ First we're going to create a socket through calling socket.socket
 Next we're going to need to specify our host and port we want to connect on, you're going to want this to correspond to the
 servers details which we will set later on. 
 
-**Note: You can get the ipv4 of a client through ipconfig on Windows or ifconfig on Linux using the CLI, 
-this is what goes in the host field. I won't go in depth on that here though as it is a Google search away should you need it.**
+**Note: You can get the IPv4 of a machine through ipconfig on Windows or ifconfig on Linux using the CLI, 
+this is what goes in the host field. I won't go in depth here though as it is a Google search away should you need it.**
 
 Finally the code takes our two variables host and port and attempts a connection
 ```python
